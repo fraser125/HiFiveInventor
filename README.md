@@ -30,7 +30,8 @@ Additional components not programmed directly, but on the PCB
 * 512 kB Flash Memory (0.5 MB)
 * USB Port for Drag & Drop Programming
 
-Notes:
+## Notes:
+* The HiFive1RevB is an Arduino style board with the same core processing (FE310, ESP32, Segger OB) but without the LED Matrix and other sensors on the HiFive Inventor board.  [HiFive1RevB](https://www.sifive.com/boards/hifive1-rev-b)  TBD: Pinout or the use of [SiFive Freedom Studio](https://www.sifive.com/software/sifive-freedom-studio)
 * If powered via the Edge Connector the LED's will not light up.
 
 ## Technical User Guide [Technical User Guide](HiFive_Inventor_Tech_UG_Web.pdf)
