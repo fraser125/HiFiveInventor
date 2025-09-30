@@ -5,8 +5,8 @@
 [https://www.sifive.com/document-file/freedom-e310-g002-datasheet](https://www.sifive.com/document-file/freedom-e310-g002-datasheet)  
 [https://www.sifive.com/document-file/hifive1-rev-b-schematics](https://www.sifive.com/document-file/hifive1-rev-b-schematics)  
 [https://www.sifive.com/software/sifive-freedom-studio](https://www.sifive.com/software/sifive-freedom-studio)  
-[Platform IO](https://docs.platformio.org/en/latest/boards/sifive/hifive1-revb.html)  
-Lots of Forum Posts for HiFive1RevB
+[Platform IO](https://docs.platformio.org/en/latest/boards/sifive/hifive1-revb.html)  [Board Config](https://github.com/platformio/platform-sifive/tree/develop/boards)  
+Lots of Forum Posts for HiFive1RevB  
 [Category: HiFive1RevB](https://forums.sifive.com/c/hifive1/9)  
 [Writing to SPI Flash](https://forums.sifive.com/t/writing-to-the-external-qspi-flash-memory/6401)  
 [Boot Process](https://forums.sifive.com/t/fe310-g002-boot-process-entry-point/5839/3) and some [Additional Boot Process Notes](https://forums.sifive.com/t/is-there-c-boot-code-source-for-revb02-hardware/5987/2)
