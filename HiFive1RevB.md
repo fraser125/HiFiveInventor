@@ -6,6 +6,11 @@
 [https://www.sifive.com/document-file/hifive1-rev-b-schematics](https://www.sifive.com/document-file/hifive1-rev-b-schematics)  
 [https://www.sifive.com/software/sifive-freedom-studio](https://www.sifive.com/software/sifive-freedom-studio)  
 
+Lots of Forum Posts for HiFive1RevB
+[Category: HiFive1RevB](https://forums.sifive.com/c/hifive1/9)  
+[Writing to SPI Flash](https://forums.sifive.com/t/writing-to-the-external-qspi-flash-memory/6401)  
+[Boot Process](https://forums.sifive.com/t/fe310-g002-boot-process-entry-point/5839/3) and some [Additional Boot Process Notes](https://forums.sifive.com/t/is-there-c-boot-code-source-for-revb02-hardware/5987/2)
+
 ## Microcontroller  
 * FE310-G002  
 Operating Voltage  
