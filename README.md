@@ -38,6 +38,7 @@ Additional components not programmed directly, but on the PCB
 
 ## Original Blockly Programs
 1.  Use the compass to display a green arrow when the kit is oriented to the north or a red cross in the other cases.
+2.  [More project names](https://youtu.be/7QDixjAANNQ?si=xpowm5YkKtd2wJIu&t=236)
 
 ## Original Python Programs
 1. Scroll on the LED matrix: "Hello World!"  
