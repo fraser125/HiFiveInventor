@@ -25,7 +25,7 @@ The board has the following features:
 * Edge Connector (0, 1, 2) + 3V & GND
 
 Additional components not programmed directly, but on the PCB
-* SEGGER J-Link
+* SEGGER J-Link (firmware hosted on a Kinetis K22F 128 KB Flash Cortex M-4)
 * Reset Button
 * 512 kB Flash Memory (0.5 MB)
 * USB Port for Drag & Drop Programming
@@ -35,3 +35,9 @@ Notes:
 
 ## Technical User Guide [Technical User Guide](HiFive_Inventor_Tech_UG_Web.pdf)
 
+## Original Blockly Programs
+1.  Use the compass to display a green arrow when the kit is oriented to the north or a red cross in the other cases.
+
+## Original Python Programs
+1. Scroll on the LED matrix: "Hello World!"  
+??.  Create a Melody
