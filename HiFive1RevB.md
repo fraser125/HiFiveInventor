@@ -5,7 +5,7 @@
 [https://www.sifive.com/document-file/freedom-e310-g002-datasheet](https://www.sifive.com/document-file/freedom-e310-g002-datasheet)  
 [https://www.sifive.com/document-file/hifive1-rev-b-schematics](https://www.sifive.com/document-file/hifive1-rev-b-schematics)  
 [https://www.sifive.com/software/sifive-freedom-studio](https://www.sifive.com/software/sifive-freedom-studio)  
-
+[Platform IO](https://docs.platformio.org/en/latest/boards/sifive/hifive1-revb.html)  
 Lots of Forum Posts for HiFive1RevB
 [Category: HiFive1RevB](https://forums.sifive.com/c/hifive1/9)  
 [Writing to SPI Flash](https://forums.sifive.com/t/writing-to-the-external-qspi-flash-memory/6401)  
