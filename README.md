@@ -21,7 +21,14 @@ The board has the following features:
 * 6x8 RGB LED Matrix via WS2812
 * 2 Buttons A & B
 * Light Sensor (To Confirm: I2C)
+  *  TBD: Address 0101001b aka 0x29 aka 41 (decimal)
 * Accelerometer & Compass (TBD: I2C or SPI)
+  *  TBD: Pin 2 CS_XL selects SPI/I2C
+  *  TBD: Pin 3 CS_MAG selects SPI/I2C
+  *  TBD: Pin 7 INT_MAG/DRDY Interrupt when data is available
+  *  TBD: Pin 11 & 12 aka INT_2_XL & INT_1_XL respectively when Accel data is available
+  *  TBD: Accel Address 0011001b aka 0x19 aka 25 (decimal)
+  *  TBD: Mag Address 0011110b  aka 0x1E aka 30 (decimal)
 * Edge Connector (0, 1, 2) + 3V & GND
 
 Additional components not programmed directly, but on the PCB
