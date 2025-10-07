@@ -30,6 +30,7 @@ The board has the following features:
   *  TBD: Accel Address 0011001b aka 0x19 aka 25 (decimal)
   *  TBD: Mag Address 0011110b  aka 0x1E aka 30 (decimal)
 * Edge Connector (0, 1, 2) + 3V & GND
+  *  TBD: Edge 0 is PWM on Microcontroller for playing Tunes
 
 Additional components not programmed directly, but on the PCB
 * SEGGER J-Link (firmware hosted on a Kinetis K22F 128 KB Flash Cortex M-4)
