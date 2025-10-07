@@ -34,8 +34,36 @@ External Wakeup Pins : 1
 ### Flash Memory  
 * 32 Mbit Off-Chip (ISSI SPI Flash)
 
-Host Interface (microUSB)  
+### Host Interface (microUSB)  
 * Program, Debug, and Serial Communication
 
-Debug  
-* Segger J-Link, drag/drop code download  
+### Debug  
+* Segger J-Link, drag/drop code download
+
+[GitHub repo for the following webpages](https://github.com/iachievedit?tab=repositories&q=hifive)  
+### IO [HiFive1 Rev B GPIO Pins](https://dev.iachieved.it/iachievedit/hifive1-rev-b-gpio-pins/)
+Header Pins are ignored because that is part of the Arduino Shield header, not applicable to the HiFive Inventor board  
+
+* GPIO  0 - Digital I/O
+* GPIO  1 - PWM
+* GPIO  2 - SPI - SS
+* GPIO  3 - SPI - MOSI
+* GPIO  4 - SPI - MISO
+* GPIO  5 - SPI - SCK
+* GPIO  8 - Digital I/O
+* GPIO  9 - Digital I/O
+* GPIO 10 - Digital I/O
+* GPIO 11 - Digital I/O (Maybe PWM)
+* GPIO 12 - I2C - SDA
+* GPIO 13 - I2C - SCL
+* GPIO 16 - Serial - RX
+* GPIO 17 - Serial - TX
+* GPIO 18 - Digital I/O
+* GPIO 19 - RGB LED - Green (PWM) - LOW is ON
+* GPIO 21 - RGB LED - Blue  (PWM) - LOW is ON
+* GPIO 22 - RGB LED - Red   (PWM) - LOW is ON
+* GPIO 23 - Digital I/O
+
+[Exploring HiFive1 Rev B GPIOs with PlatformIO](https://dev.iachieved.it/iachievedit/exploring-hifive1-rev-b-gpios-with-platformio/)  
+[I2C with the SiFive HiFive1 Rev B](https://dev.iachieved.it/iachievedit/i2c-with-the-sifive-hifive1-rev-b/) [hifive1_i2c_eeprom](https://github.com/iachievedit/hifive1_i2c_eeprom)  
+[HiFive1 Rev B, Zephyr, and SPI](https://dev.iachieved.it/iachievedit/hifive1-rev-b-zephyr-and-spi/)  
