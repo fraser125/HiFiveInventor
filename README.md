@@ -22,7 +22,7 @@ The board has the following features:
 * 2 Buttons A & B
 * Light Sensor (To Confirm: I2C)
   *  TBD: Address 0101001b aka 0x29 aka 41 (decimal)
-* Accelerometer & Compass (TBD: I2C or SPI)
+* Accelerometer & Compass & Temperature Sensors (TBD: I2C or SPI)
   *  TBD: Pin 2 CS_XL selects SPI/I2C
   *  TBD: Pin 3 CS_MAG selects SPI/I2C
   *  TBD: Pin 7 INT_MAG/DRDY Interrupt when data is available
@@ -49,6 +49,14 @@ Additional components not programmed directly, but on the PCB
 
 ## Technical User Guide [Technical User Guide](HiFive_Inventor_Tech_UG_Web.pdf)
 
+## Marketing Phrases to describe what can be built
+* Develop an Intergalactice weather service
+* Wirelessly pilot an alien spaceship
+* Learn to control a robot
+* send and receive emojis
+* Build alien musical instruments
+* Create a security system
+
 ## Original Blockly Programs
 1.  Use the compass to display a green arrow when the kit is oriented to the north or a red cross in the other cases.
 2.  [More project names](https://youtu.be/7QDixjAANNQ?si=xpowm5YkKtd2wJIu&t=236)
@@ -57,7 +65,9 @@ Additional components not programmed directly, but on the PCB
 1. Scroll on the LED matrix: "Hello World!"  
 ??.  Create a Melody
 
-## [micro:bit accessories supported by HiFive Inventor](https://web.archive.org/web/20210614053018/https://www.hifiveinventor.com/getting-started/creative) See full descriptions, below are only the "caveats" (things that don't work). Others may also work, but weren't known to work in 2021. Pin 12 is not available on HiFive Inventor. Review the issues noted below and research before purchasing.
+## micro:bit Accessories
+See full descriptions, below are only the "caveats" (things that don't work). Others may also work, but weren't known to work in 2021. Pin 12 is not available on HiFive Inventor. Review the issues noted below and research before purchasing.  
+[micro:bit accessories supported by HiFive Inventor](https://web.archive.org/web/20210614053018/https://www.hifiveinventor.com/getting-started/creative) 
 ### SparkFun micro:bot
 ### SparkFun micro:climate
 ### SparkFun gator:science
@@ -65,11 +75,11 @@ Additional components not programmed directly, but on the PCB
 ### Pimoroni noise:bit
 ### Pimoroni touch:bit
 ### Pimoroni bit:commander
-#### Audio is compromised
-#### Red Button: Pin 12 is not connected on the HiFIve therefore it will not function
-#### Use batteries in the bit:commander, it will power the HiFive
+* Audio is compromised
+* Red Button: Pin 12 is not connected on the HiFIve therefore it will not function
+* Use batteries in the bit:commander, it will power the HiFive
 ### Pimoroni simon:says
-#### Touch Pad C: Pin 12 is not connected on the HiFive therefore will not function (breaking failure or only 3 button/leds work)
+* Touch Pad C: Pin 12 is not connected on the HiFive therefore will not function (breaking failure or only 3 button/leds work)
 ### Kitronik:game
 
 [Pimoroni micro:bit accessories](https://shop.pimoroni.com/search?q=micro:bit&product_type=micro:bit%20Addon&stock=true)
