@@ -1,6 +1,6 @@
 # HiFive Inventor
 ## Overview
-This is a great little developer board, originally targetted at 7+ year old kids. Unfortunately due to licensing issue, it's no longer supported. It was originally associated with the BBC Dr. Who, including narration of the tutorial videos. These videos do not appear to be available on YouTube, there are many review videos and others that include people working through the exercises.
+This is a great little developer board, originally targetted at 7+ year old kids. Unfortunately due to licensing contract expiring, it's no longer supported. It was originally associated with the BBC Dr. Who, including narration of the tutorial videos. These videos do not appear to be available on YouTube, there are some review videos and others that include people working through the exercises.
 
 The board has the following features:  
 * 150 MHz RISC-V CPU - RV32IMAC
