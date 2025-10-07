@@ -31,6 +31,8 @@ The board has the following features:
   *  TBD: Mag Address 0011110b  aka 0x1E aka 30 (decimal)
 * Edge Connector (0, 1, 2) + 3V & GND
   *  TBD: Edge 0 is PWM on Microcontroller for playing Tunes
+  *  micro:bit compatibility  
+    * Pin 12 on the Inventor is not connected to any MicroController pin
 
 Additional components not programmed directly, but on the PCB
 * SEGGER J-Link (firmware hosted on a Kinetis K22F 128 KB Flash Cortex M-4)
@@ -44,6 +46,7 @@ Additional components not programmed directly, but on the PCB
 * [YouTube Playlist (kind of random)](https://www.youtube.com/playlist?list=PLvZXTXiQDCe7YSpDQmd2ksVSHb431ns7F)
 * Python stuff & firmware blobs [HiFive-PythonSandbox](https://github.com/damianburrin/HiFive-PythonSandbox/tree/main/h5%20updater-20240605T172322Z-001/h5%20updater/hifive_updater)
 
+
 ## Technical User Guide [Technical User Guide](HiFive_Inventor_Tech_UG_Web.pdf)
 
 ## Original Blockly Programs
@@ -53,3 +56,21 @@ Additional components not programmed directly, but on the PCB
 ## Original Python Programs
 1. Scroll on the LED matrix: "Hello World!"  
 ??.  Create a Melody
+
+## [micro:bit accessories supported by HiFive Inventor](https://web.archive.org/web/20210614053018/https://www.hifiveinventor.com/getting-started/creative) See full descriptions, below are only the "caveats" (things that don't work). Others may also work, but weren't known to work in 2021. Pin 12 is not available on HiFive Inventor. Review the issues noted below and research before purchasing.
+### SparkFun micro:bot
+### SparkFun micro:climate
+### SparkFun gator:science
+### Pimoroni enviro:bit
+### Pimoroni noise:bit
+### Pimoroni touch:bit
+### Pimoroni bit:commander
+#### Audio is compromised
+#### Red Button: Pin 12 is not connected on the HiFIve therefore it will not function
+#### Use batteries in the bit:commander, it will power the HiFive
+### Pimoroni simon:says
+#### Touch Pad C: Pin 12 is not connected on the HiFive therefore will not function (breaking failure or only 3 button/leds work)
+### Kitronik:game
+
+[Pimoroni micro:bit accessories](https://shop.pimoroni.com/search?q=micro:bit&product_type=micro:bit%20Addon&stock=true)
+
