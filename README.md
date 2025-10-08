@@ -84,6 +84,7 @@ Additional components not programmed directly, but on the PCB
 * Create a security system
 
 ## Original Blockly Programs
+"Rover Adventure" Not sure what number, uses Accelerometer
 1.  The Wayward World - Use the compass to display a green arrow when the kit is oriented to the north or a red cross in the other cases.
 2.  A New Tool -
 3.  Musica Stellarum - 
