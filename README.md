@@ -2,6 +2,8 @@
 ## Overview
 This is a great little developer board, originally targetted at 7+ year old kids. Unfortunately due to licensing contract expiring, it's no longer supported. It was originally associated with the BBC Dr. Who, including narration of the tutorial videos. These videos do not appear to be available on YouTube, there are some review videos and others that include people working through the exercises.
 
+TBD = To Be Determined (i.e. To Be Confirmed)
+
 The board has the following features:  
 * 150 MHz RISC-V CPU - RV32IMAC
   * 8 kB One Time Programmable
@@ -30,9 +32,30 @@ The board has the following features:
   *  TBD: Accel Address 0011001b aka 0x19 aka 25 (decimal)
   *  TBD: Mag Address 0011110b  aka 0x1E aka 30 (decimal)
 * Edge Connector (0, 1, 2) + 3V & GND
-  *  TBD: Edge 0 is PWM on Microcontroller for playing Tunes
-  *  micro:bit compatibility  
-    * Pin 12 on the Inventor is not connected to any MicroController pin
+    * Pin 12 on the Inventor is not connected to any MicroController pin spec says "Reserved:accessibility:"
+  * [micro:bit Edge Connector Pins](https://tech.microbit.org/hardware/edgeconnector/)  
+  * TBD: Ring 0 is Analog In (HiFive:Speaker  PWM out from Microcontroller for playing Tunes)
+  * TBD: Ring 1 is Analog In + GPIO
+  * TBD: Ring 2 is Analog In + GPIO
+  * Left to Right (Ring 0 to GND)
+  * TBD: Edge P3 (left of 0) LED Col 3/Analog In
+  * TBD: Edge P4 (right of 0) LED Col 1/Analog In  * 
+  * TBD: Edge P5 Button A
+  * TBD: Edge P6 LED Col 4
+  * TBD: Edge P7 (left of 1) LED Col 2
+  * TBD: Edge P8 (right of 1) GPIO
+  * TBD: Edge P9 GPIO
+  * TBD: Edge P10 LED Col 5 / Analog In
+  * TBD: Edge P11 Button B
+  * TBD: Edge P12 (left of 2) Reserved:accessibility Unrouted on HiFive
+  * TBD: Edge P13 (right of 2) SPI1:SCK
+  * TBD: Edge P14 SPI1:MISO
+  * TBD: Edge P15 SPI1:MOSI
+  * TBD: Edge P16 GPIO
+  * TBD: Edge +3v3 (left of 3v)
+  * TBD: Edge +3v3 (right of 3v)
+  * TBD: Edge P19 I2C1:SCL
+  * TBD: Edge P20 I2C1:SDA
 
 Additional components not programmed directly, but on the PCB
 * SEGGER J-Link (firmware hosted on a Kinetis K22F 128 KB Flash Cortex M-4)
