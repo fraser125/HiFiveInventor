@@ -56,6 +56,8 @@ The board has the following features:
   * TBD: Edge +3v3 (right of 3v)
   * TBD: Edge P19 I2C1:SCL
   * TBD: Edge P20 I2C1:SDA
+  * TBD: Edge GND (left of GND)
+  * TBD: Edge GND (right of GND)
 
 Additional components not programmed directly, but on the PCB
 * SEGGER J-Link (firmware hosted on a Kinetis K22F 128 KB Flash Cortex M-4)
