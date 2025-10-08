@@ -32,7 +32,8 @@ The board has the following features:
   *  TBD: Accel Address 0011001b aka 0x19 aka 25 (decimal)
   *  TBD: Mag Address 0011110b  aka 0x1E aka 30 (decimal)
 * Edge Connector (0, 1, 2) + 3V & GND
-    * Pin 12 on the Inventor is not connected to any MicroController pin spec says "Reserved:accessibility:"
+    * Pin 12 on the Inventor is not connected to any MicroController pin spec says "Reserved:accessibility"
+    * If powered via the Edge Connector the LED's will not light up.   
   * [micro:bit Edge Connector Pins](https://tech.microbit.org/hardware/edgeconnector/)  
   * TBD: Ring 0 is Analog In (HiFive:Speaker  PWM out from Microcontroller for playing Tunes)
   * TBD: Ring 1 is Analog In + GPIO
@@ -67,7 +68,7 @@ Additional components not programmed directly, but on the PCB
 
 ## Notes:
 * The HiFive1RevB is an Arduino style board with the same core processing (FE310, ESP32, Segger OB) but without the LED Matrix and other sensors on the HiFive Inventor board.  [HiFive1RevB](https://www.sifive.com/boards/hifive1-rev-b)  TBD: Pinout or the use of [SiFive Freedom Studio](https://www.sifive.com/software/sifive-freedom-studio)
-* If powered via the Edge Connector the LED's will not light up.
+
 * [YouTube Playlist (kind of random)](https://www.youtube.com/playlist?list=PLvZXTXiQDCe7YSpDQmd2ksVSHb431ns7F)
 * Python stuff & firmware blobs [HiFive-PythonSandbox](https://github.com/damianburrin/HiFive-PythonSandbox/tree/main/h5%20updater-20240605T172322Z-001/h5%20updater/hifive_updater)
 
@@ -83,12 +84,31 @@ Additional components not programmed directly, but on the PCB
 * Create a security system
 
 ## Original Blockly Programs
-1.  Use the compass to display a green arrow when the kit is oriented to the north or a red cross in the other cases.
-2.  [More project names](https://youtu.be/7QDixjAANNQ?si=xpowm5YkKtd2wJIu&t=236)
+1.  The Wayward World - Use the compass to display a green arrow when the kit is oriented to the north or a red cross in the other cases.
+2.  A New Tool -
+3.  Musica Stellarum - 
+4.  Doctor's Best Friend -
+5.  ??
+6.  ??
+7.  Function Junction -
+8.  Stormy Weather -
+9.  Regrowth -
+10. Escape - 
+11. ??
+[More project names](https://youtu.be/7QDixjAANNQ?si=xpowm5YkKtd2wJIu&t=236)
 
 ## Original Python Programs
-1. Scroll on the LED matrix: "Hello World!"  
-??.  Create a Melody
+1. Psychic Paper - Scroll on the LED matrix: "Hello World!"
+2. Creature Confounder - 
+3. Data Logger - 
+4. Universal Locator - 
+5. Weather Box - 
+6. Custom Watch - 
+7. Tower Message -
+8. Music Tracker -
+9. Virtual Pet -
+10. BoPop Bonanza
+11. ?? 
 
 ## micro:bit Accessories
 See full descriptions, below are only the "caveats" (things that don't work). Others may also work, but weren't known to work in 2021. Pin 12 is not available on HiFive Inventor. Review the issues noted below and research before purchasing.  
