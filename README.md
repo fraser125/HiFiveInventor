@@ -48,16 +48,16 @@ The board has the following features:
   * TBD: Edge P10 LED Col 5 / Analog In
   * TBD: Edge P11 Button B
   * TBD: Edge P12 (left of 2) Reserved:accessibility Unrouted on HiFive
-  * TBD: Edge P13 (right of 2) SPI1:SCK
-  * TBD: Edge P14 SPI1:MISO
-  * TBD: Edge P15 SPI1:MOSI
-  * TBD: Edge P16 GPIO
-  * TBD: Edge +3v3 (left of 3v)
-  * TBD: Edge +3v3 (right of 3v)
-  * TBD: Edge P19 I2C1:SCL
-  * TBD: Edge P20 I2C1:SDA
-  * TBD: Edge GND (left of GND)
-  * TBD: Edge GND (right of GND)
+  * CPU Pin 31: Edge P13 (right of 2) SPI1:SCK
+  * CPU Pin 29: Edge P14 SPI1:MISO
+  * CPU Pin 28: Edge P15 SPI1:MOSI
+  * CPU Pin 27: Edge P16 GPIO (CPU:SS0)
+  * Edge +3v3 (left of 3v)
+  * Edge +3v3 (right of 3v)
+  * CPU Pin 37: Edge P19 I2C1:SCL
+  * CPU Pin 36: Edge P20 I2C1:SDA
+  * Edge GND (left of GND)
+  * Edge GND (right of GND)
 
 Additional components not programmed directly, but on the PCB
 * SEGGER J-Link (firmware hosted on a Kinetis K22F 128 KB Flash Cortex M-4)
