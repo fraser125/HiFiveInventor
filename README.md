@@ -21,6 +21,10 @@ The board has the following features:
   * 802.11 b/g/n
   * v4.2 Bluetooth LE
 * 6x8 RGB LED Matrix via WS2812
+  * CPU Pin 44: Used as a Digital Output
+  * Pixel 0 = Top Right
+  * Right to Left on all rows
+  * Pixel 42 = Bottom Left
 * 2 Buttons A & B
 * Light Sensor (To Confirm: I2C)
   *  TBD: Address 0101001b aka 0x29 aka 41 (decimal)
