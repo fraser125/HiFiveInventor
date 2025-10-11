@@ -21,6 +21,7 @@ The board has the following features:
   * 802.11 b/g/n
   * v4.2 Bluetooth LE
 * 6x8 RGB LED Matrix via WS2812
+  * WS2812 is used in a chain from one LED to the next
   * CPU Pin 44: Used as a Digital Output
   * Pixel 0 = Top Right
   * Right to Left on all rows
@@ -79,7 +80,7 @@ Additional components not programmed directly, but on the PCB
 
 ## Technical User Guide [Technical User Guide](HiFive_Inventor_Tech_UG_Web.pdf)
 
-## Marketing Phrases to describe what can be built
+## Marketing Phrases that describe what can be built
 * Develop an Intergalactice weather service
 * Wirelessly pilot an alien spaceship
 * Learn to control a robot
