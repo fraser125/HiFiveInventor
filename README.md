@@ -9,4 +9,4 @@ As of late 2024 the original Tynker development options are no longer available.
 1. [Write some code]()
 
 ## Additional Information
-* A similar board using the Arduino Shield layout (no sensors, no LEDs, no buttons, same CPU, debugging option and WiFi Bluetooth configuration. [HiFive1RevB](.\HiFive1RevB.md)
+* A similar board using the Arduino Shield layout (no sensors, no LEDs, no buttons, same CPU, debugging option and WiFi Bluetooth configuration. [HiFive1RevB](./HiFive1RevB.md)
