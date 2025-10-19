@@ -1,16 +1,13 @@
 # Updating the Firmware
 There are actually 3 different devices that use firmware, some of them use more than one. 
 * SEGGER JLink OB - Debugger
-* FE310 - RISC-V Processor
+* FE310 - Bootloader & Runtime
 * ESP32 - WiFi & Bluetooth
-* Bootloader - Unclear Maybe FE310
-* Updater - PC Software
 ## Starting Version
 The identifying sticker on the outside of my box includes the following:
 * SKU HF103-000 Model B05RW
 * SFB05-204602497
 * UPC 8 60008 17902 0
-
 Once plugged in to a Windows PC the board reveals several important details:
 * 2 new Serial Ports "JLink CDC UART Port"
 
@@ -37,16 +34,23 @@ Checksum: 19436
 Double click to open with your default web browser:
 ```
 BBC Dr. Who HiFive Inventor Coding Kit website HiFiveInventor.com
-
 Detailed technical information about the HiFive Inventor Coding Kit can be found online.
-
 The HiFive Inventor Coding Kit uses SEGGER J-Link OB technology to connect to the SiFive RISC-V microcontroller.
-
 Firmware version: J-Link OB-K22-SiFive compiled Oct 6 2020 18:21:02
 ```
 The HiFiveInventor.com link and Technical Information links in this file don't lead anywhere useful.  
 The Segger Link has changed and should link to [Segger Link OB](https://www.segger.com/products/debug-probes/j-link/models/j-link-ob/) as of 10/16/2025.  
-The Segger Link is probably more useful for C programming, so don't worry about it.
+The Segger Link is probably more useful for C programming (not useful for MicroPython).
 
 # Update Process
-1. Download the HiFive1 Updater
+1. Download the HiFive1 Updater from this repository.
+   * In the 'hifive_updater' folder of this repository 
+   * Click the Green 'Code' button and choose the 'Download Zip' button OR you can use git to clone this repository
+1. Double click and run the "gui.exe" program
+1. The updater will look something like this:
+<img src="./Images/DefaultFirmwareVersions.png" width="200"/>
+1. Click the Green "Update All To Latest" button  
+1. Next change the 'Runtime' for the FE310 to run the latest MicroPython version:
+<img src="./Images/SelectionFirmwareVersions.png" width="200"/>
+1. The final updater view will look something like this:
+<img src="./Images/FinalFirmwareVersions.png" width="200"/>  
