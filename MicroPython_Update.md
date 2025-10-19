@@ -1,4 +1,12 @@
-The identifying sticker on the outside of the box includes the following:
+# Updating the Firmware
+There are actually 3 different devices that use firmware, some of them use more than one. 
+* SEGGER JLink OB - Debugger
+* FE310 - RISC-V Processor
+* ESP32 - WiFi & Bluetooth
+* Bootloader - Unclear Maybe FE310
+* Updater - PC Software
+## Starting Version
+The identifying sticker on the outside of my box includes the following:
 * SKU HF103-000 Model B05RW
 * SFB05-204602497
 * UPC 8 60008 17902 0
@@ -40,4 +48,5 @@ The HiFiveInventor.com link and Technical Information links in this file don't l
 The Segger Link has changed and should link to [Segger Link OB](https://www.segger.com/products/debug-probes/j-link/models/j-link-ob/) as of 10/16/2025.  
 The Segger Link is probably more useful for C programming, so don't worry about it.
 
-
+# Update Process
+1. Download the HiFive1 Updater
