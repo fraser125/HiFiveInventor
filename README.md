@@ -5,8 +5,8 @@ This is a great little developer board, originally targetted at 7+ year old kids
 As of late 2024 the original Tynker development options are no longer available. So what is there to do with this cute little board? Micro Python is the best option and is good for kids just a little older than the original target of 7+, probably better for 9-10 year olds. This is how to get started:
 1. [Update Firmware](./FirmwareUpdate.md)
 1. [Install a beta version of Mu](./Mu4Hi5/mu-editorA2_64bit.exe)
-1. Test the board in [Interactive Mode]()
-1. [Write some code]()
+1. Test the board in [Interactive Mode](./InteractiveMode.md)
+1. [Write some code](./WriteSomeCode.md)
 
 ## Additional Information
 * [Technical Documentation](TechnicalDetailsC.md) for C programming
