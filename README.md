@@ -9,5 +9,6 @@ As of late 2024 the original Tynker development options are no longer available.
 1. [Write some code]()
 
 ## Additional Information
+* [Technical Documentation](TechnicalDetailsC.md) for C programming
 * A similar board using the Arduino Shield layout (no sensors, no LEDs, no buttons, same CPU, debugging option and WiFi Bluetooth configuration. [HiFive1RevB](./HiFive1RevB.md)
 * The first version of the HiFive Learn Inventor was nearly identical but can be identified by the black PCB [SiFive Learn Inventor](./SiFiveLearnInventor.md)
