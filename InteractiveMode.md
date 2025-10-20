@@ -21,6 +21,13 @@ Type "help()" for more information.
    * running_time() : returns a counter value based on when the board was last powered on or reset. Divide by 1000 for the number of seconds.
    * panic() : 
 ## More involved I/O
+### Buttons
+* button_a.is_pressed()
+* button_a.was_pressed()
+* button_a.get_presses()
+* button_b.is_pressed()
+* button_b.was_pressed()
+* button_b.get_presses()
 ### Compass
 * compass.heading()
 * compass.is_calibrated()
@@ -39,6 +46,18 @@ Type "help()" for more information.
 * accelerometer.is_gesture()
 * accelerometer.was_gesture()
 * accelerometer.get_gestures()
+* Gestures
+   * up
+   * down
+   * left
+   * right
+   * face up
+   * face down
+   * freefall
+   * 3g
+   * 6g
+   * 8g
+   * shake
 ### spi
 * spi.init()
 * spi.deinit()
@@ -142,6 +161,31 @@ Type "help()" for more information.
 * display.is_on()
 * display.read_light_level()
 * display.read_ir_level()
+## Not Displayed, but available
+### uart
+* uart.init()
+* uart.any()
+* uart.read()
+* uart.readline()
+* uart.readinto()
+* uart.write()
+* uart.on()
+* uart.off()
+* Init Values
+   * ODD
+   * EVEN
+## Not Displayed, but these were documented, so could be in other MicroPython revisions, or otherwise hidden
+### math
+### music
+### speech
+### audio
+### radio
+### neopixel
+### love
+### authors()
+### sys
+### os
+### random
 ## Troubleshooting
 1. Only one app should connect to the device at a time so close other related apps.
    1. For example only Mu REPL OR the Firmware Updater.
@@ -154,3 +198,4 @@ Type "help()" for more information.
    1. If more than 2 files are present on the drive, then perform the board Power Reset Sequence in #2.
 6. Close all related desktop apps. i.e. Mu, gui.exe (Updater)
 7. Pressing the reset button is also very safe to try.
+
