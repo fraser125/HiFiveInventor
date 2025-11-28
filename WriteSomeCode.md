@@ -66,6 +66,16 @@ Note: I believe this requires the speaker module to be attached
 ## mqtt
 ## music
 ## neopixel
+* neopixel.NeoPixel(pin, n)
+ * Create a list representing a strip of 'n' neopixels controlled from the\nspecified pin (e.g. hifive.pin0). Use the resulting object to change each pixel by position (starting from 0). Individual pixels are given RGB (red, green, blue) values between 0-255 as a tupe. For example, (255, 255, 255) is white:
+ * ```
+   np = neopixel.NeoPixel(hifive.pin0, 8)
+   np[0] = (255, 0, 128)
+   np.show()```
+* neopixel.NeoPixel.clear()
+  * Clear all the pixels.
+* neopixel.NeoPixel.show()
+  * Show the pixels. Must be called for any updates to become visible.
 ## network
 ## os
 * os.listdir()
@@ -78,7 +88,7 @@ Note: I believe this requires the speaker module to be attached
   * Return information about MicroPython and the device.
 ## radio
 ## random
-The following import statements may be needed to test the following API's
+The following import statements may be needed to test the 'random' API's
 ```
 import hifive
 import random
@@ -147,4 +157,5 @@ Note: I was unable to get uarts to work as expected.
 ## usocket
 ## ustruct
 ## utime
+
 
